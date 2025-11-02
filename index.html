@@ -1,3 +1,8 @@
+<!-- Fancybox CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
 <h1>Australian Opal Care Instructions</h1>
 <p><span>Australian opals are unique and delicate gemstones; approximately 5,000 times rarer than diamonds. Follow the care instructions below to keep yours looking brilliant for many years to come.</span></p>
 <h2><span>Know Your Opal Type</span></h2>
@@ -55,3 +60,14 @@
 </li>
 <li>For long-term storage - wrap it in a clean piece of cotton or wool with a few drops of water, and place it in a sealed bag to maintain a consistent humidity level.</li>
 </ul>
+<!-- Fancybox JS -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+<script>
+  // Initialize Fancybox on any links that use data-fancybox
+  Fancybox.bind("[data-fancybox]", {
+    Thumbs: false,
+    Toolbar: "auto",
+    animated: true,
+  });
+</script>
